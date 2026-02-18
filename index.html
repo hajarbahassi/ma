@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIYAD AUTO PRESTIGE | Showroom Audi Rabat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700;900&family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root { 
+            --red: #C8102E; --gold: #B4975A; --blue: #002349; --light: #f9f9f9; --dark: #070707;
+            --glass: rgba(255, 255, 255, 0.95);
+        }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Outfit', sans-serif; margin: 0; background: var(--light); color: var(--blue); overflow-x: hidden; }
+
+        /* Navigation Assia Style */
+        nav { 
+            position: fixed; top: 20px; left: 50%; transform: translateX(-50%); 
+            width: 90%; max-width: 1200px; background: var(--glass); backdrop-filter: blur(15px); 
+            padding: 12px 30px; border-radius: 100px; display: flex; justify-content: space-between; 
+            align-items: center; z-index: 1000; border: 1px solid rgba(0,0,0,0.05); 
+            box-shadow: 0 10px 40px rgba(0,0,0,0.05); 
+        }
+        .logo-text { font-family: 'Bodoni Moda', serif; font-size: 1.2rem; font-weight: 900; text-decoration: none; color: var(--blue); }
+        .logo-text span { display: block; font-size: 0.6rem; color: var(--red); letter-spacing: 2px; }
+        .nav-links a { text-decoration: none; color: var(--blue); font-weight: 700; font-size: 0.8rem; margin-left: 20px; text-transform: uppercase; }
+
+        /* Hero Showroom Audi - Image: hero.jpg.jpeg */
+        .hero { 
+            height: 100vh; background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), 
+            url('hero.jpg.jpeg') center/cover no-repeat; 
+            display: flex; flex-direction: column; align-items: center; justify-content: center; 
+            text-align: center; color: white; 
+        }
+        .hero h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(3rem, 10vw, 7rem); margin: 0; }
+        .hero p { letter-spacing: 5px; text-transform: uppercase; color: var(--gold); font-weight: 700; }
+
+        /* Partenariats Luxe */
+        .partners { padding: 30px 5%; background: white; display: flex; justify-content: center; gap: 40px; align-items: center; flex-wrap: wrap; border-bottom: 1px solid #eee; }
+        .partner-box { font-family: 'Bodoni Moda'; font-size: 1.1rem; color: #bbb; text-transform: uppercase; letter-spacing: 2px; }
+
+        /* Section Signature - Image: vieux-chauffeur.jpg.png */
+        #about { padding: 80px 10%; background: white; display: flex; align-items: center; gap: 50px; flex-wrap: wrap; }
+        .about-text { flex: 1; min-width: 300px; }
+        .about-text h2 { font-family: 'Bodoni Moda', serif; font-size: 3rem; margin-bottom: 20px; }
+        .about-image { flex: 1; min-width: 300px; }
+        .about-image img { width: 100%; border-radius: 20px; box-shadow: 20px 20px 0px var(--gold); }
+
+        /* Grille Modern Fleet (Incluant Camaro) */
+        .container { max-width: 1400px; margin: 0 auto; padding: 60px 5%; }
+        .grid { display: grid; grid
